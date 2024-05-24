@@ -88,12 +88,11 @@ layout: home
         <img class="content"  width="100%" height="100%" src="./asserts/example-1.png">
         <figcaption style="text-align: center;"> <br> <b> An example of audio generation requiring both text and video control.  </b></br></figcaption>
       </figure>
-<!--       <p>The text instruction ``dog growling'' is used for the text control. The video-to-audio (V2A) or text-to-audio (T2A) generation methods cannot understand the detailed semantics from texts (the dog is growling, not barking) or video (the dog is biting something, and the alignment), respectively.</p> -->
-    </div>
-  <div class="section">
-<!--             <h2 class="section-title">Abstract</h2> -->
+            </div>
+ <div class="section">
             <p>
-               Multimodal generative models have shown impressive advances with the help of powerful diffusion models. Despite the progress, generating sound solely from text poses challenges in ensuring comprehensive scene depiction and temporal alignment. Meanwhile, video-to-sound generation limits the flexibility to prioritize sound synthesis for specific objects within the scene. To tackle these challenges, we propose a novel video-and-text-to-sound generation method where video serves as a conditional control for a text-to-sound generation model. Our method estimates the structural information of sound (namely, energy) from the video while receiving key content cues from a user prompt. We employ a well-performing text-to-sound model to consolidate the video control, which is much more efficient for training multimodal diffusion models with massive triplet-paired (audio-video-text) data. In addition, by separating the generative components of sounds, it becomes a more flexible system that allows users to freely adjust the energy, surrounding environment, and primary sound source according to their preferences. Experimental results demonstrate that our method shows superiority in terms of quality, controllability, and training efficiency.
+               The text instruction ``dog growling'' is used for the text control. The video-to-audio (V2A) or text-to-audio (T2A) generation methods cannot understand the detailed semantics from texts (the dog is growling, not barking) or video (the dog is biting something, and the alignment), respectively.
+  
             </p>
         </div>
     <div class="sections-container">
@@ -108,7 +107,7 @@ layout: home
         <div class="section">
             <h2 class="section-title">Abstract</h2>
             <p>
-               The text instruction ``dog growling'' is used for the text control. The video-to-audio (V2A) or text-to-audio (T2A) generation methods cannot understand the detailed semantics from texts (the dog is growling, not barking) or video (the dog is biting something, and the alignment), respectively.
+              Multimodal generative models have shown impressive advances with the help of powerful diffusion models. Despite the progress, generating sound solely from text poses challenges in ensuring comprehensive scene depiction and temporal alignment. Meanwhile, video-to-sound generation limits the flexibility to prioritize sound synthesis for specific objects within the scene. To tackle these challenges, we propose a novel video-and-text-to-sound generation method where video serves as a conditional control for a text-to-sound generation model. Our method estimates the structural information of sound (namely, energy) from the video while receiving key content cues from a user prompt. We employ a well-performing text-to-sound model to consolidate the video control, which is much more efficient for training multimodal diffusion models with massive triplet-paired (audio-video-text) data. In addition, by separating the generative components of sounds, it becomes a more flexible system that allows users to freely adjust the energy, surrounding environment, and primary sound source according to their preferences. Experimental results demonstrate that our method shows superiority in terms of quality, controllability, and training efficiency.
             </p>
         </div>
 
@@ -120,18 +119,18 @@ layout: home
             <div class="center-img"> 
               <figure>
                 <figure>
-                    <video class="content" width="20%" height="20%" src="./asserts/0_generated_lions_growling_29067.mp4" controls="controls" style="display: block;"></video>
+                    <video class="content" width="30%" height="30%" src="./asserts/0_generated_lions_growling_29067.mp4" controls="controls" style="display: block;"></video>
                     <figcaption style="text-align: center;"> prompt: lions growling  </figcaption>
                 </figure>
                 
                 <figure>
-                    <video class="content" width="20%" height="20%" src="./asserts/0_generated_car_engine_starting_111658.mp4
+                    <video class="content" width="30%" height="30%" src="./asserts/0_generated_car_engine_starting_111658.mp4
 " controls="controls" style="display: block;"></video>
                     <figcaption style="text-align: center;">  prompt: car engine </figcaption>
                 </figure>
 
                  <figure>
-                    <video class="content" width="20%" height="20%" src="./asserts/0_generated_playing_darts_164054.mp4" controls="controls" style="display: block;"></video>
+                    <video class="content" width="30%" height="30%" src="./asserts/0_generated_playing_darts_164054.mp4" controls="controls" style="display: block;"></video>
                     <figcaption style="text-align: center;"> prompt: darts </figcaption>
                 </figure>
             </div>
